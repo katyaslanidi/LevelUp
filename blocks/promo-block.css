@@ -1,0 +1,44 @@
+.promo-block {
+  position: relative;
+  min-height: 600px;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(white, #504f4f6f);
+}
+
+.promo-block__container {
+  display: grid;
+  grid-template-columns: repeat(2, 300px);
+}
+
+.promo-block__img {
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  width: 290px;
+}
+
+.promo-block__text {
+  font-size: 15px;
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.promo-block__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 20px;
+}
+
+.promo-block__item {
+  font-size: 15px;
+}

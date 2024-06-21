@@ -1,0 +1,129 @@
+.product {
+  position: relative;
+  height: 800px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(white, #504f4f6f);
+}
+
+.product__container {
+  display: grid;
+  grid-template-columns: 500px 300px 500px;
+  grid-template-rows: repeat(3, 200px);
+  gap: 20px;
+  position: relative;
+}
+
+.one {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.two {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.three {
+  grid-column: 1;
+  grid-row: 3;
+}
+
+.four {
+  grid-column: 3;
+  grid-row: 1;
+}
+
+.five {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+.six {
+  grid-column: 3;
+  grid-row: 3;
+}
+
+.product__img {
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  grid-column: 2;
+  grid-row: 2;
+  height: 200px;
+  width: 150px;
+}
+
+.product__ingredient {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0.28, 0.28, 0.28, 0.63);
+  border-radius: 50px;
+  position: relative;
+}
+
+.product__ingredient-img {
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+}
+
+.product__text {
+  font-size: 20px;
+  text-align: center;
+}
+
+.product__block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.product__span {
+  height: 50px;
+  width: 70px;
+  background-image: url("../images/1491254409-leftarrowbackwardsign_82959.svg");
+  background-size: cover;
+  position: absolute;
+}
+
+.span-one {
+  left: 500px;
+  top: 150px;
+  transform: rotate(45deg);
+}
+
+.span-two {
+  left: 500px;
+  top: 80px;
+  transform: rotate(0deg);
+}
+
+.span-three {
+  left: 500px;
+  top: 10px;
+  transform: rotate(-45deg);
+}
+
+.span-four {
+  left: -70px;
+  top: 150px;
+  transform: rotate(135deg);
+}
+
+.span-five {
+  left: -70px;
+  top: 80px;
+  transform: rotate(180deg);
+}
+
+.span-six {
+  left: -70px;
+  top: 10px;
+  transform: rotate(225deg);
+}
