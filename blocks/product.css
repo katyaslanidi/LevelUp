@@ -151,3 +151,31 @@
   top: 10px;
   transform: rotate(225deg);
 }
+
+@media screen and (max-width: 1353px) {
+  .product__container {
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: repeat(3, 200px);
+  }
+  .product__ingredient {
+      width: 300px;
+  }
+
+  .span-one {
+    left: 300px;
+    top: 150px;
+    transform: rotate(45deg);
+  }
+  
+  .span-two {
+    left: 300px;
+    top: 80px;
+    transform: rotate(0deg);
+  }
+  
+  .span-three {
+    left: 300px;
+    top: 10px;
+    transform: rotate(-45deg);
+  }
+}
