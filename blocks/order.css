@@ -1,0 +1,122 @@
+.order {
+  position: relative;
+  min-height: 800px;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(#504f4f6f, white);
+}
+
+.order__title {
+  font-size: 30px;
+  font-weight: 600px;
+}
+
+.order__timer {
+  font-size: 25px;
+  font-weight: 400px;
+  margin-top: 0;
+}
+
+.order__box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #504f4f6f;
+  border-radius: 20px;
+  height: 340px;
+}
+
+.order__container {
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.order__img {
+  margin-top: 10px;
+  height: 200px;
+}
+
+.order__sale {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.order__price {
+  font-weight: 400px;
+}
+
+.old {
+  font-size: 14px;
+  text-decoration: line-through;
+  margin-top: 20px;
+}
+
+.new {
+  height: 20px;
+  animation: 2s increase infinite linear;
+  margin: 0;
+}
+
+.order__form {
+  width: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 20px;
+  position: relative;
+}
+
+.order__lable {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.order__input {
+  font-size: 18px;
+  margin-bottom: 5px;
+  width: 166px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.order__button {
+  font-size: 20px;
+  font-weight: 400px;
+  margin-top: 10px;
+  width: 172px;
+  border-radius: 5px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.order__button:hover {
+  background: #e2e2f2;
+}
+
+@keyframes increase {
+  from {
+    font-size: 16px;
+  }
+  25% {
+    font-size: 18px;
+  }
+  50% {
+    font-size: 20px;
+  }
+  75% {
+    font-size: 22px;
+  }
+  to {
+    font-size: 24px;
+  }
+}

@@ -36,6 +36,7 @@
   position: absolute;
   left: 10px;
   top: 150px;
+  cursor: pointer;
 }
 
 .slider .next {

@@ -56,6 +56,30 @@
   width: 150px;
 }
 
+.product__order {
+  grid-column: 2;
+  grid-row: 3;
+  display: inline-block;
+  padding: 10px 15px;
+  background: #f2f2f2;
+  border: 1px solid #000;
+  color: #333;
+  text-decoration: none;
+  text-align: center;
+  font-size: 30px;
+  height: 50px;
+  width: 150px;
+  text-align: center;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  padding: 15px 0 0 29px;
+}
+
+.product__order:hover {
+  background: #e2e2f2;
+}
+
 .product__ingredient {
   display: flex;
   flex-direction: column;

@@ -5,6 +5,7 @@
 @import url(./blocks/promo-block.css);
 @import url(./blocks/promo.css);
 @import url(./blocks/reviews.css);
+@import url(./blocks/order.css);
 
 .page {
   font-family: "OpenSans";

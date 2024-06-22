@@ -8,14 +8,14 @@
   </head>
   <section class="page">
     <section class="promo">
-      <hi class="promo__title">LevelUp</hi>
+      <h1 class="promo__title">LevelUp</h1>
       <div class="promo__container">
         <img class="promo__img" src="./images/prod.png" alt="Продукт" />
         <ul class="promo__list">
           <li class="promo__text">Характеристика 1</li>
           <li class="promo__text">Характеристика 2</li>
           <li class="promo__text">Характеристика 3</li>
-          <a class="promo__order" href="#">Заказать</a>
+          <a class="promo__order" href="#form">Заказать</a>
         </ul>
       </div>
       <video autoplay muted loop class="video_wrap">
@@ -58,6 +58,7 @@
           <span class="product__span span-three"></span>
         </div>
         <img class="product__img" src="./images/prod.png" alt="Продукт" />
+        <a class="product__order" href="#form">Заказать</a>
         <div class="product__ingredient four">
           <div class="product__block">
             <img
@@ -141,8 +142,31 @@
         <li class="promo-block__item">Характеристика</li>
         <li class="promo-block__item">Характеристика</li>
     </ul>
+    <a class="promo-block__order" href="#form">Заказать</a>
+</section>
+<section class="order">
+  <h2 class="order__title">LevelUp</h2>
+  <p class="order__timer" id="countdown">30:00</p>
+  <div class="order__box">
+    <div class="order__container">
+      <img class="order__img" src="./images/prod.png"/>
+      <div class="order__sale">
+        <p class="order__price old">1000</p>
+        <p class="order__price new">500</p>
+      </div>
+    </div>
+    <form class="order__form" id="form">
+      <label class="order__lable">Имя</label>
+      <input title="Иван Иванов" class="order__input" type="text" name="name" id="name" placeholder="Имя" autocomplete="off" required/>
+      <label class="order__lable">Телефон</label>
+      <input title="8 915 111 11 11" pattern="\d [0-9]"  class="order__input" type="tel" name="tel" id="tel" placeholder="Телефон" autocomplete="off"  required />
+      <!-- форма не отправиться пока в поле не будут только цифры -->
+      <button class="order__button">Заказать</button>
+    </form>
+  </div>
 </section>
 
-    <script src="./index.js"></script>
+    <script src="./slider.js"></script>
+    <script src="./timer.js"></script>
   </body>
 </html>
